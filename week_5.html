@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 5 – Data Gathering & Visualisation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Week 5 – Data Gathering & Visualisation</h1>
+    <p>Published: 2025-03-21 | Tags: data, visualisation</p>
+  </header>
+
+  <main>
+    <p>I began collecting real-world seismic datasets this week.  
+    The data has been cleaned and normalised, and I’ve created basic line graphs showing earthquake intensity over time.</p>
+
+    <p>This will be used to drive animation behaviours within Maya—simulating realistic responses to environmental events.  
+    I’m now drafting a data explanation section for the website and thesis.</p>
+
+    <h2>📈 Data & Simulation → City Design & Rigging</h2>
+
+    <h3>Core Thesis Connection</h3>
+    <p>To explore how architecture can adapt to natural disasters, my project combines real-world seismic data with a speculative city model. By visualising data through simulation and animating structural response systems, the project tests how cities might behave dynamically under stress.</p>
+
+    <h3>Why Data & Simulation Comes First</h3>
+    <ul>
+      <li>Natural disasters are data-driven events</li>
+      <li>To animate responses, I need to understand:
+        <ul>
+          <li>How earthquakes vary by region</li>
+          <li>What forces act on structures</li>
+          <li>When and where damage is most likely</li>
+        </ul>
+      </li>
+      <li>Backs the simulation with measurable, scientific inputs</li>
+    </ul>
+
+    <p>The second phase of this project focuses on collecting and analysing seismic data to simulate how real-world events unfold over time and space. This data—visualized through graphs and interpreted into animation values—serves as the behavioral foundation for the next phase: designing and rigging adaptive city systems in Maya. By establishing a scientific basis for movement, the architectural responses in the simulation are not arbitrarily animated but instead represent plausible reactions to environmental inputs. This approach grounds speculative design in real phenomena, aligning with the goals of data-driven storytelling and resilient urban visualization.</p>
+
+    <hr/>
+
+    <h2>🌐 Environmental Hazards & Simulation Datasets</h2>
+    <p>I’ve created a comprehensive guide that connects environmental hazards with their relevant datasets and the real-world regions most affected. This helps determine both where to source meaningful data and how it can be applied to drive procedural animation inside Maya.</p>
+
+    <p>By structuring data collection around specific challenges—such as earthquakes, tsunamis, and floods—I can ensure my simulation reflects genuine environmental behaviours and supports my research aim of linking fiction with real-world resilience.</p>
+
+    <h3>🌍 Simulation Data by Disaster Type & Region</h3>
+
+    <h4>🌍 Earthquakes</h4>
+    <p><a href="https://www.ngdc.noaa.gov/hazel/view/hazards/earthquake/search">Earthquake Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Japan, Chile, Turkey, California (USA)<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Event time</li>
+      <li>Magnitude</li>
+      <li>Latitude & longitude</li>
+    </ul>
+
+    <h4>🌊 Tsunamis</h4>
+    <p><a href="https://www.ngdc.noaa.gov/hazel/view/hazards/tsunami/event-search">Tsunami Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Indonesia, Japan, Alaska, Russia<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Wave height (m)</li>
+      <li>Magnitude</li>
+    </ul>
+
+    <h4>🪨 Landslides</h4>
+    <p><a href="https://giri.unepgrid.ch/node/154">Landslide Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Afghanistan, India, China, Pakistan<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Slope angle</li>
+      <li>Rainfall intensity</li>
+      <li>Ground movement rate</li>
+      <li>Location coordinates</li>
+    </ul>
+    <strong>Use in Maya:</strong>
+    <ul>
+      <li>Terrain shifts</li>
+      <li>Modular structures displacing</li>
+      <li>Deformation or material reactions</li>
+    </ul>
+
+    <h4>🌋 Volcanic Earthquakes</h4>
+    <p><a href="https://www.ngdc.noaa.gov/hazel/view/hazards/volcano/event-search">Volcano Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Iceland, Hawaii, Indonesia, Italy (Etna)<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Seismic swarm data</li>
+      <li>Gas emissions</li>
+      <li>Earthquake depth</li>
+      <li>Magma flow models</li>
+    </ul>
+    <strong>Use in Maya:</strong>
+    <ul>
+      <li>Eruption effects (particles)</li>
+      <li>Gas venting</li>
+      <li>Heat-map driven animation</li>
+    </ul>
+
+    <h4>🌧️ Flooding</h4>
+    <p><a href="https://giri.unepgrid.ch/facts-figures/flood">Flood Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Bangladesh, Netherlands, UK, South Korea<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Rainfall levels</li>
+      <li>River overflow</li>
+      <li>Dam release</li>
+      <li>Flood plain maps</li>
+    </ul>
+    <strong>Use in Maya:</strong>
+    <ul>
+      <li>Water rise simulation (Bifrost)</li>
+      <li>Floodgate activation</li>
+      <li>Urban overflow / drainage simulation</li>
+    </ul>
+
+    <h4>🌀 Hurricanes / Cyclones</h4>
+    <p><a href="https://giri.unepgrid.ch/facts-figures/cyclone">Cyclone Dataset</a></p>
+    <strong>High-Risk Regions:</strong> Philippines, USA, Japan, Bangladesh<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Wind speed</li>
+      <li>Pressure drop</li>
+      <li>Water surge levels</li>
+      <li>Precipitation</li>
+    </ul>
+    <strong>Use in Maya:</strong>
+    <ul>
+      <li>Debris particle simulation</li>
+      <li>Building responsiveness to wind</li>
+      <li>Sound-reactive effects</li>
+    </ul>
+
+    <h4>🏙️ Seismic Risk to Cities</h4>
+    <p><a href="https://giri.unepgrid.ch/facts-figures/building-infrastructures">Urban Infrastructure Risk Dataset</a></p>
+    <strong>High-Risk Cities:</strong> Istanbul, San Francisco, Tokyo<br/>
+    <strong>Data Needed:</strong>
+    <ul>
+      <li>Infrastructure vulnerability</li>
+      <li>Population density</li>
+      <li>Emergency response time</li>
+    </ul>
+    <strong>Use in Maya:</strong>
+    <ul>
+      <li>Timed response simulation</li>
+      <li>Population movement animation</li>
+      <li>Scenario-based testing</li>
+    </ul>
+
+    <a href="index.html" class="back">← Back to Home</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Graduation Blog</p>
+  </footer>
+</body>
+</html>
