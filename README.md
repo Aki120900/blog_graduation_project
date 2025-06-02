@@ -1,4 +1,4 @@
-# Graduation Progress Blog (11 Weeks)
+# Graduation Progress Blog 
 
 Welcome to my graduation blog project! This is a week-by-week breakdown of my creative and technical journey, where I documented the process of designing, simulating, and presenting an educational city model focused on natural disaster awareness.
 
